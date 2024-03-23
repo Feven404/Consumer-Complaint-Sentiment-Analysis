@@ -95,5 +95,5 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 - The virtual currency segment appears to be stagnant at 0 due to the limited number of complaints received for this product. Because of the large number of complaints for the other products/services, I did the indexing to occur every 80 lines. However to accomodate for the sparse data for virtual currency, I reduced the index to 0.25 to provide a more detailed view. The resulting graph illustrates minimal movement from the baseline of 0, reflecting the scarcity of complaints in this category:
 
 <div align = "center">
-<img src = "Images/Part of a SAIP.png" width = "600", height = "280")>
+<img src = "Images/Part of a SAIP.png" width = "545", height = "220")>
 </div>
