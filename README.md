@@ -104,7 +104,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <img src = "Images/Part of a SAIP.png" width = "1000", height = "220")>
 </div>
 
-- This chart is valuable as it highlights the products or services with positive or negative sentiment across different companies. It also sheds light on the challenges consumers are facing with these products or services across the different companies.
+- Both charts are valuable as it highlights the products or services with positive or negative sentiment across different companies. It also sheds light on the challenges consumers are facing with these products or services across the different companies.
 
 ---
 2. Comparison of the 3 Dictionaries
