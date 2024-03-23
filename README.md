@@ -102,9 +102,24 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <img src = "Images/Part of a SAIP.png" width = "1000", height = "220")>
 </div>
 
+
 2. Comparison of the 3 Dictionaries
 <div align = "center">
 <img src = "Images/3 Dictionaries Comparison.png" width = "450")>
 </div>
 
 - A comparison of the 3 dictionaries (afinn, bing, and nrc) used to analyse the consumer complaint sentiments. 
+
+3. Common Positive and Negative Words
+<div align = "center">
+<img src = "Images/Common Positive and Negative Words.png" width = "450")>
+</div>
+
+- A total sum of the common positive and negative words in the complaints.
+
+- There are significantly large amounts of negative words, the most common one close to 60,000 occurences. While the most common positive word has only nearly 20,000 occurences.
+
+4. Wordcloud
+<div align = "center">
+<img src = "Images/Positive Negative Wordcloud.png" width = "450")>
+</div>
