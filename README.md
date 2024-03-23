@@ -92,8 +92,8 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 
 - There are a total of 12 products/services.
 
-- The virtual currency looks as if it is at a stagnant 0 this is because there is very little complaints on this product and since I was indexing every 80 lines, the index was at 0 for virtual currency. But I indexed    the virtual currency at only 0.25 and below is the graph you'll see where it barely moves from 0.
+- The virtual currency segment appears to be stagnant at 0 due to the limited number of complaints received for this product. Because of the large number of complaints for the other products/services, I did the indexing to occur every 80 lines. However to accomodate for the sparse data for virtual currency, I reduced the index to 0.25 to provide a more detailed view. The resulting graph illustrates minimal movement from the baseline of 0, reflecting the scarcity of complaints in this category:
 
 <div align = "center">
-<img src = "Images/Part of a SAIP.png" width = "1000", height = "375")>
+<img src = "Images/Part of a SAIP.png" width = "600", height = "280")>
 </div>
