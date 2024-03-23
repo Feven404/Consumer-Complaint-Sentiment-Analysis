@@ -81,3 +81,9 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Ditech Financial LLC|Mortgage|assisted with mortgage through agency since this helps pay...|
 |Ocwen|Mortgage|submitted payment for sons mortgage payment every month ...|
 |Encore Capital Group|Debt collection|recieved notice from midland credit management inc mcm th...|
+
+##Data Analysis
+1. Positive and Negative values for each product
+<div align = "center">
+<img src = "Images/Product Sentiment Index Plot.png" width = "450")>
+</div>
