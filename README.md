@@ -86,7 +86,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Encore Capital Group|Debt collection|recieved notice from midland credit management inc mcm th...|
 
 ---
-##Data Analysis
+## Data Analysis
 1. Positive and Negative values for each product
 <div align = "center">
 <img src = "Images/Product Sentiment Index Plot.png" width = "450")>
@@ -123,3 +123,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <div align = "center">
 <img src = "Images/Positive Negative Wordcloud.png" width = "450")>
 </div>
+
+---
+## Conclusion
+From the sentiment analysis, it can be concluded that the consumer's faced a lot of troubles and expressed dissatisfaction. 
