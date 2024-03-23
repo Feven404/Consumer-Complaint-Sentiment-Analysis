@@ -1,5 +1,5 @@
 # Consumer Complaint Sentiment Analysis
-## By: Feven Ferede
+## Feven Ferede
 
 ---
 ## Introduction
