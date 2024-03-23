@@ -1,18 +1,20 @@
 # Consumer Complaint Sentiment Analysis
 ## Feven Ferede
 
+---
 ## Introduction
 This project involved sentiment analysis of consumer complaints for bank products and services.
 <div align = "center">
 <img src = "Images/Sentimen Analysis Pic.jpg" width = "450")>
 </div>
-
+---
 ## Dictionary
 The columns that were primarily used are: 
 1. Company: the company (bank) names.
 2. Product: the product/service they provided that consumer's issued a complaint against.
 3. Consumer complaint narrative: the complaint consumer's addressed towards the company.
 
+---
 ## Data Cleaning 
 1. Consumer complaint narrative:
    i. Removing empty spaces:
@@ -22,7 +24,7 @@ The columns that were primarily used are:
         filter(`Consumer complaint narrative` != "")
        ```
    ii. Making a new table:
-     -  The original csv file had 19 columns and all of that is not needed for the analysis. So I created a new           table with only 3: Company, Product, and Consumer complaint narrative.
+     -  The original csv file had 19 columns and all of that is not needed for the analysis. So I created a             new table with only 3: Company, Product, and Consumer complaint narrative.
         ```
         company_consumer_complaints <- df_consumer_complaints%>%
         dplyr::select(Company, Product, `Consumer complaint narrative`)
@@ -60,7 +62,8 @@ The columns that were primarily used are:
         company_consumer_complaints$`Consumer complaint narrative` <-
         str_squish(company_consumer_complaints$`Consumer complaint narrative`)
          ```
-
+        
+---
 ## Data Summary
 Below is a preview of how the table will appear after the analysis (due to a large number of observations, only a selection is shown here. And the ellipses are only there becausse the complaints are very lengthy):
 |Company|Product|Consumer complaint narrative|
@@ -82,6 +85,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Ocwen|Mortgage|submitted payment for sons mortgage payment every month ...|
 |Encore Capital Group|Debt collection|recieved notice from midland credit management inc mcm th...|
 
+---
 ##Data Analysis
 1. Positive and Negative values for each product
 <div align = "center">
