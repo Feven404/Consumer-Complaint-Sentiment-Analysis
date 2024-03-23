@@ -97,3 +97,10 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <div align = "center">
 <img src = "Images/Part of a SAIP.png" width = "1000", height = "220")>
 </div>
+
+2. Comparison of the 3 Dictionaries
+<div align = "center">
+<img src = "Images/3 Dictionaries Comparison.png" width = "450")>
+</div>
+
+- A comparison of the 3 dictionaries (afinn, bing, and nrc) used to analyse the consumer complaint sentiments. 
