@@ -1,23 +1,23 @@
 # Consumer Complaint Sentiment Analysis
-## Feven Ferede
+## By: Feven Ferede
 
 ---
-## Introduction
+# Introduction
 This project involved sentiment analysis of consumer complaints for bank products and services.
 <div align = "center">
 <img src = "Images/Sentimen Analysis Pic.jpg" width = "450")>
 </div>
 
 ---
-## Dictionary
+# Dictionary
 The columns that were primarily used are: 
 1. Company: the company (bank) names.
 2. Product: the product/service they provided that consumer's issued a complaint against.
 3. Consumer complaint narrative: the complaint consumer's addressed towards the company.
 
 ---
-## Data Cleaning 
-1. Consumer complaint narrative:
+# Data Cleaning 
+## 1. Consumer complaint narrative:
    i. Removing empty spaces:
      - Within the Consumer complaint narrative, it only showed 'NA' because of the empty spaces that made it             unreadable. So, I removed the empty spaces so the complaints were readable.
        ```
@@ -65,8 +65,8 @@ The columns that were primarily used are:
          ```
         
 ---
-## Data Summary
-Below is a preview of how the table will appear after the analysis (due to a large number of observations, only a selection is shown here. And the ellipses are only there becausse the complaints are very lengthy):
+# Data Summary
+## Below is a preview of how the table will appear after the analysis (due to a large number of observations, only a selection is shown here. And the ellipses are only there becausse the complaints are very lengthy):
 |Company|Product|Consumer complaint narrative|
 |---|:-:|--:|
 |Capital One|Credit card|received capital one charge card offer applied was accepted...|
@@ -87,8 +87,8 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Encore Capital Group|Debt collection|recieved notice from midland credit management inc mcm th...|
 
 ---
-## Data Analysis
-1. Positive and Negative values for each product
+# Data Analysis
+## 1. Positive and Negative values for each product
 <div align = "center">
 <img src = "Images/Product Sentiment Index Plot.png" width = "450")>
 </div>
@@ -104,14 +104,14 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 </div>
 
 
-2. Comparison of the 3 Dictionaries
+## 2. Comparison of the 3 Dictionaries
 <div align = "center">
 <img src = "Images/3 Dictionaries Comparison.png" width = "450")>
 </div>
 
 - A comparison of the 3 dictionaries (afinn, bing, and nrc) used to analyse the consumer complaint sentiments. 
 
-3. Common Positive and Negative Words
+## 3. Common Positive and Negative Words
 <div align = "center">
 <img src = "Images/Common Positive and Negative Words.png" width = "450")>
 </div>
@@ -120,11 +120,11 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 
 - There are significantly large amounts of negative words, the most common one close to 60,000 occurences. While the most common positive word has only nearly 20,000 occurences.
 
-4. Wordcloud
+## 4. Wordcloud
 <div align = "center">
 <img src = "Images/Positive Negative Wordcloud.png" width = "450")>
 </div>
 
 ---
-## Conclusion
+# Conclusion
 From the sentiment analysis, it can be concluded that the consumer's faced a lot of troubles and expressed dissatisfaction. 
