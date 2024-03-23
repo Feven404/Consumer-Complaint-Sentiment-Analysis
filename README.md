@@ -125,6 +125,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <img src = "Images/Positive Negative Wordcloud.png" width = "450")>
 </div>
 
+
 - The red is the negative words from the complaints.
 - The blue is the positive words from the complaints.
 ---
