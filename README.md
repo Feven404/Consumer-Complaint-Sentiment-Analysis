@@ -87,11 +87,12 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <div align = "center">
 <img src = "Images/Product Sentiment Index Plot.png" width = "450")>
 </div>
-- This is a sentiment value analysis of the consumer complaints in regards to the product/service the          consumer's were complaining under.
+
+- This is a sentiment value analysis of the consumer complaints in regards to the product/service the consumer's were complaining under.
 
 - There are a total of 12 products/services.
 
 - The virtual currency looks as if it is at a stagnant 0 this is because there is very little complaints on       this product and since I was indexing every 80 lines, the index was at 0 for virtual currency. But I indexed    the virtual currency at only 0.25 and below is the graph you'll see where it barely moves from 0. 
 <div align = "center">
-<img src = "Images/Part of a SAIP.png" width = "450", height = "550")>
+<img src = "Images/Part of a SAIP.png" width = "450", height = "500")>
 </div>
