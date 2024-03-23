@@ -131,3 +131,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 ---
 # Conclusion
 From the sentiment analysis, it can be concluded that the consumer's faced a lot of troubles and expressed dissatisfaction. 
+
+<div align = "center">
+<img src = "Images/emotional scale.jpg" width = "450")>
+</div>
