@@ -18,14 +18,15 @@ The columns that were primarily used are:
 ---
 ## Data Cleaning 
 1. Consumer complaint narrative:
+
    i. Removing empty spaces:
-     - Within the Consumer complaint narrative, it only showed 'NA' because of the empty spaces that made it             unreadable. So, I removed the empty spaces so the complaints were readable.
+     - Within the Consumer complaint narrative, it only showed 'NA' because of the empty spaces that made it unreadable. So, I removed the empty spaces so the complaints were readable.
        ```
         df_consumer_complaints <- df_consumer_complaint %>%
         filter(`Consumer complaint narrative` != "")
        ```
    ii. Making a new table:
-     -  The original csv file had 19 columns and all of that is not needed for the analysis. So I created a             new table with only 3: Company, Product, and Consumer complaint narrative.
+     -  The original csv file had 19 columns and all of that is not needed for the analysis. So I created a new table with only 3: Company, Product, and Consumer complaint narrative.
         ```
         company_consumer_complaints <- df_consumer_complaints%>%
         dplyr::select(Company, Product, `Consumer complaint narrative`)
@@ -111,7 +112,8 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 <img src = "Images/3 Dictionaries Comparison.png" width = "450")>
 </div>
 
-- A comparison of the 3 dictionaries (afinn, bing, and nrc) used to analyse the consumer complaint sentiments. 
+- A comparison of the 3 dictionaries (afinn, bing, and nrc) used to analyse the consumer complaint sentiments.
+- I believe this chart valuable because it offers a comparative analysis of sentiment across three different dictionaries (AFINN, Bing, and NRC), providing a comprehensive view of sentiment trends and highlighting any discrepancies or commonalities between the dictionaries' assessments.
 
 ---
 ## 3. Common Positive and Negative Words
@@ -122,6 +124,8 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 - A total sum of the common positive and negative words in the complaints.
 
 - There are significantly large amounts of negative words, the most common one close to 60,000 occurences. While the most common positive word has only nearly 20,000 occurences.
+
+- I find this chart valuable because it provides insights into the common positive and negative words used in consumer complaints across multiple companies, allowing us to understand prevailing sentiments and areas of concern across the industry.
 
 ---
 ## 4. Wordcloud
