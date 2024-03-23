@@ -95,5 +95,5 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 - The virtual currency looks as if it is at a stagnant 0 this is because there is very little complaints on this product and since I was indexing every 80 lines, the index was at 0 for virtual currency. But I indexed    the virtual currency at only 0.25 and below is the graph you'll see where it barely moves from 0.
 
 <div align = "center">
-<img src = "Images/Part of a SAIP.png" width = "800", height = "400")>
+<img src = "Images/Part of a SAIP.png" width = "1000", height = "375")>
 </div>
