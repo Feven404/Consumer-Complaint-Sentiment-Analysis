@@ -7,13 +7,13 @@ This project involved sentiment analysis of consumer complaints for bank product
 <img src = "Images/Sentimen Analysis Pic.jpg" width = "450")>
 </div>
 
-## Dictionary📔
+## Dictionary
 The columns that were primarily used are: 
 1. Company: the company (bank) names.
 2. Product: the product/service they provided that consumer's issued a complaint against.
 3. Consumer complaint narrative: the complaint consumer's addressed towards the company.
 
-## Data Cleaning
+## Data Cleaning 
 1. Consumer complaint narrative:
    i. Removing empty spaces:
      - Within the Consumer complaint narrative, it only showed 'NA' because of the empty spaces that made it             unreadable. So, I removed the empty spaces so the complaints were readable.
@@ -60,3 +60,27 @@ The columns that were primarily used are:
         company_consumer_complaints$`Consumer complaint narrative` <-
         str_squish(company_consumer_complaints$`Consumer complaint narrative`)
          ```
+
+## Data Summary
+Below is a preview of how the table will appear after the analysis (due to a large number of observations, only a selection is shown here. And the ellipses are only there becausse the complaints are very lengthy):
+|Company|Product|Consumer complaint narrative|
+|---|:-:|--:|
+|Capital One
+|Credit card
+|received capital one charge card offer applied was accepted...|
+|CCS Financial Services, Inc.
+|Debt collection
+|know how they got cell number told them would deal only with
+...|
+|Citizens Financial Group, Inc.
+|Credit card
+|longtime member charter one bankrbs citizens bank when...|
+|Experian|Credit reporting|after looking credit report saw collection account that does...|
+|Big Picture Loans, LLC
+|Debt collection
+|received call from from ext stating that owed $ but they want...|
+|Oliphant Financial Corporation
+|Student loan|was not contacted years later about some private loan supp...|
+|Collection Consultants of California
+|Debt collection
+|collection consultants reporting collection account all credit...|
