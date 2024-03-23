@@ -72,3 +72,12 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Big Picture Loans, LLC|Debt collection|received call from from ext stating that owed $ but they want...|
 |Oliphant Financial Corporation|Student loan|was not contacted years later about some private loan supp...|
 |Collection Consultants of California|Debt collection|collection consultants reporting collection account all credit...|
+|Collection Consultants of California|Debt collection|collection consultants reporting collection account all credit...|
+|Experian|Credit reporting|had purse stolen they never found person responsible cancell...|
+|Discover|Credit card|attempted apply for discover card online system did hard cr...|
+|Stellar Recovery Inc.|Debt collection|continued attempts collect debt under name debt was clearly ...|
+|Citibank|Student loan|this continuation previous issue with citibank that has reached...|
+|Citibank|Debt collection|going through divorce were unable pay mortgage for few mo...|
+|Ditech Financial LLC|Mortgage|assisted with mortgage through agency since this helps pay...|
+|Ocwen|Mortgage|submitted payment for sons mortgage payment every month ...|
+|Encore Capital Group|Debt collection|recieved notice from midland credit management inc mcm th...|
