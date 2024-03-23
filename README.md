@@ -7,6 +7,7 @@ This project involved sentiment analysis of consumer complaints for bank product
 <div align = "center">
 <img src = "Images/Sentimen Analysis Pic.jpg" width = "450")>
 </div>
+
 ---
 ## Dictionary
 The columns that were primarily used are: 
