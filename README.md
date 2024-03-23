@@ -66,8 +66,7 @@ Below is a preview of how the table will appear after the analysis (due to a lar
 |Company|Product|Consumer complaint narrative|
 |---|:-:|--:|
 |Capital One|Credit card|received capital one charge card offer applied was accepted...|
-|CCS Financial Services, Inc.|Debt collection|know how they got cell number told them would deal only with
-...|
+|CCS Financial Services, Inc.|Debt collection|know how they got cell number told them would deal only...|
 |Citizens Financial Group, Inc.|Credit card|longtime member charter one bankrbs citizens bank when...|
 |Experian|Credit reporting|after looking credit report saw collection account that does...|
 |Big Picture Loans, LLC|Debt collection|received call from from ext stating that owed $ but they want...|
